@@ -1,26 +1,30 @@
 /**
  * 생성 된 todo객체들을 저장한다.
  *
- * @property {object[]} doing (required)
- * @property {object[]} done (required)
- * @property {object[]} deleted (required)
+ * interface {
+ * 	doing: object[]
+ * 	done: object[]
+ * 	deleted: object[]
+ * }
  *
  * @todo 수량 제한이 있어야 할 것 같다.
  * @todo 시간 제한도 두면 재밌을 것 같다.
  */
-let todoBasket
+const todoBasket = {};
 
 /**
  * 할 일과 관련 정보가 들어있는 주요 객체(class).
  * desc가 빈 문자열이면 저장하지 않고 alertRule함수를 실행한다.
  *
- * @property {number} id (required)
- * @property {string} desc (required)
- * @property {boolean} isDone (required)
- * @property {string} category (required)
- * @property {string[]} tags (optional)
+ * interface {
+ * 	id: number
+ * 	desc: string
+ * 	isDone: boolean
+ * 	category: string
+ * 	tags?: string[]
+ * }
  *
- * @todo todo 삭제 기능이 1.불가역적이거나, 2.보관하는 양이 너무 많지 않다면 읽을 수 있는 마지막(sorting) id의 뒤에 붙여주자.
+ * @todo tags처럼 배열 타입인 경우 개인적으로 옵셔널로 지정하기보단  빈 배열이라도 두는 것을 선호한다. 넣었다 뺏다 헷갈리는 것 보다 낫지 않나 해서. 질문 해 볼까어쩌까
  * @todo category는 그냥 문자열이 아니라 타입을  만들어서 사용하자.
  * @todo 고유한 id를 위해서 마지막 todo.index를 따로 저장하고 있으면 좋을 것 같다.
  * @todo todo 삭제 기능이 1.불가역적이거나, 2.보관하는 양이 너무 많지 않다면 읽을 수 있는 마지막(sorting) id의 뒤에 붙여주자.
