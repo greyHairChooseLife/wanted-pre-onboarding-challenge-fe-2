@@ -6,14 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "jsdoc -c jsdoc.json",
-	"gdeploy": "gh-pages -d docs"
+    "gdeploy": "gh-pages -d docs"
   },
-  "homepage":"https://greyhairchooselife.github.io/wanted-pre-onboarding-challenge-fe-2/",
+  "homepage": "https://greyhairchooselife.github.io/wanted-pre-onboarding-challenge-fe-2/",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jsdoc": "^4.0.0"
+    "jsdoc": "^4.0.0",
+    "typescript": "^4.9.5"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
