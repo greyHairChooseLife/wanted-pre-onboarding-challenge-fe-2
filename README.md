@@ -5,10 +5,12 @@
 
 ## 이 프로젝트는
 
-- 2월 챌린지, TypeScript by WANTED
-- todo 만들기
-- 기본 기능에 시간 제한을 더해서 게으름 피우지 못하도록!
+- 원티드 프리온보딩 챌린지 프론트앤드, 3차과제 
+- 설계된 모델링을 따라 구현 해 보기
+- 모델링 피드백
 
-## velog 후기
+## 참조한 타 수강생의 모델링
 
-- 1/4 https://velog.io/@chooslife/wanted-%ED%94%84%EB%A6%AC%EC%98%A8%EB%B3%B4%EB%94%A9-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%B1%8C%EB%A6%B0%EC%A7%80-2%EC%9B%94-14-%ED%9B%84%EA%B8%B0
+https://github.com/0131ryu/wanted-pre-onboarding-challenge-fe-ts/blob/main/src/todo/index.ts
+
+## 피드백
